@@ -1,0 +1,17 @@
+# Build do CMake
+/build/
+
+# Binarios compilados
+/matmul
+/matmul_tsan
+*.o
+
+# Python
+__pycache__/
+*.pyc
+
+# Sistema
+.DS_Store
+
+# Observacao: scripts/results.csv e scripts/scaling.png SAO versionados
+# de proposito (fazem parte da entrega do Q4).
